@@ -7,7 +7,7 @@ const nodemailer = require("nodemailer");
 
 const app = express();
 
-app.use(cors({origin:"*"}));
+app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
